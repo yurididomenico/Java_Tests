@@ -1,7 +1,5 @@
 package org.example;
 
-import java.util.Scanner;
-
 public class Main {
     public static void main(String[] args) {
         System.out.println("Main program develop branch\n");
@@ -44,19 +42,41 @@ public class Main {
 
         // ____________________ Input ____________________ //
         // import java.util.Scanner; IMPORTANT: type this on top of the program, above of Main
-        Scanner scanner = new Scanner(System.in);
+//        Scanner scanner = new Scanner(System.in);
+//
+//        System.out.print("Nome: ");
+//        String name = scanner.nextLine();
+//        System.out.print("Cognome: ");
+//        String surname = scanner.nextLine();
+//        System.out.print("Anni: ");
+//        int age = scanner.nextInt();
+//        scanner.nextLine();
+//        System.out.print("Città: ");
+//        String city = scanner.nextLine();
+//
+//        System.out.println("Ciao " + name + " " + surname + "!");
+//        System.out.println("Hai " + age + " anni e la tua città è " + city + "! 😍");
 
-        System.out.print("Nome: ");
-        String name = scanner.nextLine();
-        System.out.print("Cognome: ");
-        String surname = scanner.nextLine();
-        System.out.print("Anni: ");
-        int age = scanner.nextInt();
-        scanner.nextLine();
-        System.out.print("Città: ");
-        String city = scanner.nextLine();
 
-        System.out.println("Ciao " + name + " " + surname + "!");
-        System.out.println("Hai " + age + " anni e la tua città è " + city + "! 😍");
+        // ____________________ Arithmetic Operations ____________________ //
+//        int x = 10;
+//        x++; // Shorthand of -> x = x + 1;
+//        x--; // Shorthand of -> x = x - 1;
+
+//        x += 5; // Shorthand of -> x = x + 5;
+//        x -= 5; // Shorthand of -> x = x - 5;
+//        x *= 5; // Shorthand of -> x = x * 5;
+//        x /= 5; // Shorthand of -> x = x / 5;
+//        x %= 5; // Shorthand of -> x = x % 5;
+
+//        int y = 2;
+//        int z = x + y;
+//        int z = x - y;
+//        int z = x * y;
+//        int z = x / y;
+//        int z = x % y;
+
+//        System.out.println(x);
+
     }
 }
