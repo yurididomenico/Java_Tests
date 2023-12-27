@@ -150,9 +150,31 @@ public class Main {
 //            System.out.println("È maggiore o uguale a 10");
 //        }
 
-        boolean condition = false;
-        String x = condition ? "Ciao!" : "Buongiorno.";
-        System.out.println(x);
+//        boolean condition = false;
+//        String x = condition ? "Ciao!" : "Buongiorno.";
+//        System.out.println(x);
+
+
+        // ____________________ Switch ____________________ //
+        String nome = "Marco";
+//        String nome = "Yuri";
+
+        switch (nome) {
+            case "Luca":
+                System.out.println("Ciao " + nome + "!");
+                break;
+            case "Marco":
+                System.out.println("Ciao " + nome + "!");
+                break;
+            case "Antonio":
+                System.out.println("Ciao " + nome + "!");
+                break;
+            case "Edoardo":
+                System.out.println("Ciao " + nome + "!");
+                break;
+            default:
+                System.out.println("Ciao chiunque tu sia!");
+        }
     }
 }
 
