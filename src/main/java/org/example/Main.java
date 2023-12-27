@@ -1,41 +1,62 @@
 package org.example;
 
+import java.util.Scanner;
+
 public class Main {
     public static void main(String[] args) {
         System.out.println("Main program develop branch\n");
 
-        // Declaration, Assignment, Initialization
-        int x; // Declaration
-        x = 10; // Assignment
-        System.out.println("x: " + x);
-        int y = 20; // Initialization
-        System.out.println("y: " + y + "\n");
+        // ____________________ Declaration, Assignment, Initialization ____________________ //
+//        int x; // Declaration
+//        x = 10; // Assignment
+//        System.out.println("x: " + x);
+//        int y = 20; // Initialization
+//        System.out.println("y: " + y + "\n");
 
-        // Types
-        boolean b = true; // Boolean | true : false | 1 bit
-        byte by = 127;  // Byte | -128 : 127 | 1 byte
-        short sh = 32767; // Short | -32768 : 32767 | 2 bytes
-        int i = 2147483647; // Int | -2147483648 : 2147483647 | 4 bytes
-        long l = 9223372036854775807L; // Long | -9223372036854775808 : 9223372036854775807 | 8 bytes
-        float f = 2.1234567F; // Float | 1 number with 6 - 7 decimal digits 5.123456f | 2 bytes
-        double d = 2.1234567890123456; // Double | 1 number with 15 decimal digits 5.123456789012345 | 2 bytes
-        char c = 'y'; // Char | Single character / letter / ASCII | 2 bytes
-        String s = "Ciao!"; // String | Sequence of characters | variable ( Reference )
 
-        System.out.println("boolean: " + b);
-        System.out.println("byte: " + by);
-        System.out.println("short: " + sh);
-        System.out.println("int: " + i);
-        System.out.println("long: " + l);
-        System.out.println("float: " + f);
-        System.out.println("double: " + d);
-        System.out.println("char: " + c);
-        System.out.println("String: " + s);
+        // ____________________ Types ____________________ //
+//        boolean b = true; // Boolean | true : false | 1 bit
+//        byte by = 127;  // Byte | -128 : 127 | 1 byte
+//        short sh = 32767; // Short | -32768 : 32767 | 2 bytes
+//        int i = 2147483647; // Int | -2147483648 : 2147483647 | 4 bytes
+//        long l = 9223372036854775807L; // Long | -9223372036854775808 : 9223372036854775807 | 8 bytes
+//        float f = 2.1234567F; // Float | 1 number with 6 - 7 decimal digits 5.123456f | 2 bytes
+//        double d = 2.1234567890123456; // Double | 1 number with 15 decimal digits 5.123456789012345 | 2 bytes
+//        char c = 'y'; // Char | Single character / letter / ASCII | 2 bytes
+//        String s = "Ciao!"; // String | Sequence of characters | variable ( Reference )
+//
+//        System.out.println("boolean: " + b);
+//        System.out.println("byte: " + by);
+//        System.out.println("short: " + sh);
+//        System.out.println("int: " + i);
+//        System.out.println("long: " + l);
+//        System.out.println("float: " + f);
+//        System.out.println("double: " + d);
+//        System.out.println("char: " + c);
+//        System.out.println("String: " + s);
 
-        // Variable Nomenclature
+
+        // ____________________ Variable Nomenclature ____________________ //
         // personAge --- Lower Camel Case -> Variables
         // person_age --- Snake Case -> Variables
         // PERSON_AGE --- Constant Snake Case -> Constants
 
+
+        // ____________________ Input ____________________ //
+        // import java.util.Scanner; IMPORTANT: type this on top of the program, above of Main
+        Scanner scanner = new Scanner(System.in);
+
+        System.out.print("Nome: ");
+        String name = scanner.nextLine();
+        System.out.print("Cognome: ");
+        String surname = scanner.nextLine();
+        System.out.print("Anni: ");
+        int age = scanner.nextInt();
+        scanner.nextLine();
+        System.out.print("Città: ");
+        String city = scanner.nextLine();
+
+        System.out.println("Ciao " + name + " " + surname + "!");
+        System.out.println("Hai " + age + " anni e la tua città è " + city + "! 😍");
     }
 }
