@@ -15,9 +15,14 @@ public class Main {
         int i = 1; // Int
         float f = 2.3f; // Float
         String s = "Ciao!"; // String
-
         System.out.println(i);
         System.out.println(f);
         System.out.println(s);
+
+        // Variable Nomenclature
+        // personAge --- Lower Camel Case -> Variables
+        // person_age --- Snake Case -> Variables
+        // PERSON_AGE --- Constant Snake Case -> Constants
+
     }
 }
