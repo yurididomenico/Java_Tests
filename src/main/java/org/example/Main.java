@@ -156,25 +156,43 @@ public class Main {
 
 
         // ____________________ Switch ____________________ //
-        String nome = "Marco";
+//        String nome = "Marco";
 //        String nome = "Yuri";
 
-        switch (nome) {
-            case "Luca":
-                System.out.println("Ciao " + nome + "!");
-                break;
-            case "Marco":
-                System.out.println("Ciao " + nome + "!");
-                break;
-            case "Antonio":
-                System.out.println("Ciao " + nome + "!");
-                break;
-            case "Edoardo":
-                System.out.println("Ciao " + nome + "!");
-                break;
-            default:
-                System.out.println("Ciao chiunque tu sia!");
+//        switch (nome) {
+//            case "Luca":
+//                System.out.println("Ciao " + nome + "!");
+//                break;
+//            case "Marco":
+//                System.out.println("Ciao " + nome + "!");
+//                break;
+//            case "Antonio":
+//                System.out.println("Ciao " + nome + "!");
+//                break;
+//            case "Edoardo":
+//                System.out.println("Ciao " + nome + "!");
+//                break;
+//            default:
+//                System.out.println("Ciao chiunque tu sia!");
+//        }
+
+
+        // ____________________ Loops ____________________ //
+        /*
+        * while
+        * do while
+        */
+
+        int i = 0;
+        while (i < 0) {
+            System.out.println("while" + i);
+            i++;
         }
+
+        do {
+            System.out.println("dowhile" + i);
+            i++;
+        } while (i < 0);
     }
 }
 
