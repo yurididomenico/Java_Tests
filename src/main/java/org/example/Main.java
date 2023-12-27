@@ -12,12 +12,25 @@ public class Main {
         System.out.println("y: " + y + "\n");
 
         // Types
-        int i = 1; // Int
-        float f = 2.3f; // Float
-        String s = "Ciao!"; // String
-        System.out.println(i);
-        System.out.println(f);
-        System.out.println(s);
+        boolean b = true; // Boolean | true : false | 1 bit
+        byte by = 127;  // Byte | -128 : 127 | 1 byte
+        short sh = 32767; // Short | -32768 : 32767 | 2 bytes
+        int i = 2147483647; // Int | -2147483648 : 2147483647 | 4 bytes
+        long l = 9223372036854775807L; // Long | -9223372036854775808 : 9223372036854775807 | 8 bytes
+        float f = 2.1234567F; // Float | 1 number with 6 - 7 decimal digits 5.123456f | 2 bytes
+        double d = 2.1234567890123456; // Double | 1 number with 15 decimal digits 5.123456789012345 | 2 bytes
+        char c = 'y'; // Char | Single character / letter / ASCII | 2 bytes
+        String s = "Ciao!"; // String | Sequence of characters | variable ( Reference )
+
+        System.out.println("boolean: " + b);
+        System.out.println("byte: " + by);
+        System.out.println("short: " + sh);
+        System.out.println("int: " + i);
+        System.out.println("long: " + l);
+        System.out.println("float: " + f);
+        System.out.println("double: " + d);
+        System.out.println("char: " + c);
+        System.out.println("String: " + s);
 
         // Variable Nomenclature
         // personAge --- Lower Camel Case -> Variables
