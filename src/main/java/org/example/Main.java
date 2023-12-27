@@ -220,11 +220,21 @@ public class Main {
 //            System.out.println(i);
 //        }
 
-        for (int i = 0; i < 10; i++) {
-            if (i == 4) {
-                continue;
-            }
-            System.out.println(i);
+//        for (int i = 0; i < 10; i++) {
+//            if (i == 4) {
+//                continue;
+//            }
+//            System.out.println(i);
+//        }
+
+
+        // ____________________ Array ____________________ //
+        int[] numbers = {10, 20, 30, 40};
+//        for (int i = 0; i < numbers.length; i++) {
+//            System.out.println(numbers[i]);
+//        }
+        for (int number : numbers) {
+            System.out.println(number);
         }
     }
 }
