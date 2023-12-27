@@ -98,16 +98,27 @@ public class Main {
         * ==
         * !=
         */
-
-        boolean result = 3 > 10;
+//        boolean result = 3 > 10;
 //        boolean result = 3 >= 10;
 //        boolean result = 3 < 10;
 //        boolean result = 3 <= 10;
 //        boolean result = 3 == 10;
 //        boolean result = 3 != 10;
+//        System.out.println(result);
 
-        System.out.println(result);
 
+        // ____________________ Logical Operators ____________________ //
+        /*
+        * AND - &&
+        * OR - ||
+        * NOT - !
+        */
+
+//        boolean result = 3 < 10 && 3 < 20;
+//        boolean result = 3 < 10 || 3 < 20;
+//        boolean result = !(3 < 10);
+
+//        System.out.println(result);
     }
 }
 
