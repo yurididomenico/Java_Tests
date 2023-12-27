@@ -181,18 +181,51 @@ public class Main {
         /*
         * while
         * do while
+        * for
+        * break
+        * continue
         */
 
-        int i = 0;
-        while (i < 0) {
-            System.out.println("while" + i);
-            i++;
-        }
+//        int i = 0;
+//        while (i < 0) {
+//            System.out.println("while " + i);
+//            i++;
+//        }
+//
+//        do {
+//            System.out.println("dowhile " + i);
+//            i++;
+//        } while (i < 0);
 
-        do {
-            System.out.println("dowhile" + i);
-            i++;
-        } while (i < 0);
+//        for (int i = 0; i < 5; i++) {
+//            System.out.print(i + " ");
+//        }
+
+//        for (int i = 0; i < 5; i++) {
+//            for (int j = 0; j < 5; j++) {
+//                System.out.print(j + "\t");
+//            }
+//            System.out.println("");
+//        }
+
+//        int[] numbers = {20, 22, 21, 19, 23};
+//        for (int number : numbers) {
+//            System.out.println(number);
+//        }
+
+//        for (int i = 0; i < 5; i++) {
+//            if (i == 4) {
+//                break;
+//            }
+//            System.out.println(i);
+//        }
+
+        for (int i = 0; i < 10; i++) {
+            if (i == 4) {
+                continue;
+            }
+            System.out.println(i);
+        }
     }
 }
 
