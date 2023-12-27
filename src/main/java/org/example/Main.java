@@ -117,8 +117,42 @@ public class Main {
 //        boolean result = 3 < 10 && 3 < 20;
 //        boolean result = 3 < 10 || 3 < 20;
 //        boolean result = !(3 < 10);
+//        boolean result = ((3 < 10 && 3 % 2 == 0) || (6 < 10 && 6 % 2 == 0)) && 10 < 100;
 
 //        System.out.println(result);
+
+
+        // ____________________ If ____________________ //
+        /*
+        * If
+        * else
+        * else if
+        * ternary operator
+        */
+
+//        boolean isOnline = true;
+//        boolean isOnline = false;
+//        if (isOnline) {
+//            System.out.println("🟩");
+//        } else {
+//            System.out.println("🟥");
+//        }
+
+//        int number = 6;
+//        if (number < 10) {
+//            System.out.print("È minore di 10 e ");
+//            if (number % 2 == 0) {
+//                System.out.println("pari");
+//            } else {
+//                System.out.println("dispari");
+//            }
+//        } else {
+//            System.out.println("È maggiore o uguale a 10");
+//        }
+
+        boolean condition = false;
+        String x = condition ? "Ciao!" : "Buongiorno.";
+        System.out.println(x);
     }
 }
 
