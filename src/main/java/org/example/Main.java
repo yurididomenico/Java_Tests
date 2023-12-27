@@ -78,5 +78,25 @@ public class Main {
 
 //        System.out.println(x);
 
+
+        // ____________________ Math ____________________ //
+        // abs, min, max, pow, sqrt, PI
+        System.out.println(Math.abs(-55)); // Find absolute number: -2 => 2 | 2 => 2
+        System.out.println(Math.min(1, 5)); // Find minimum value
+        System.out.println(Math.max(1, 5)); // Find maximum value
+        System.out.println(Math.pow(2, 3)); // Find the power of number Math.pow(number of power, number);
+        System.out.println(Math.sqrt(16)); // Find square root Math.sqrt(number);
+        System.out.println(Math.PI); // Find PI 3.14 ...
     }
 }
+
+
+
+
+
+
+
+
+
+
+
