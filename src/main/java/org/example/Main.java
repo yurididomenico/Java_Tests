@@ -239,12 +239,12 @@ public class Main {
 
 
         // ____________________ Array 2D ____________________ //
-        String[][] classes = {
-                {"Yuri", "Ludovica"},
-                {"Marco", "Mattia", "Edoardo"},
-                {"Keeevin", "Federico"},
-                {"Alex", "Mattia"}
-        };
+//        String[][] classes = {
+//                {"Yuri", "Ludovica"},
+//                {"Marco", "Mattia", "Edoardo"},
+//                {"Keeevin", "Federico"},
+//                {"Alex", "Mattia"}
+//        };
 
         // For
 //        for (int sClass = 0; sClass < classes.length; sClass++) {
@@ -255,12 +255,39 @@ public class Main {
 //        }
 
         //Foreach
-        for (String[] sClass : classes) {
-            for (String student : sClass) {
-                System.out.print(student + " ");
-            }
-            System.out.println();
-        }
+//        for (String[] sClass : classes) {
+//            for (String student : sClass) {
+//                System.out.print(student + " ");
+//            }
+//            System.out.println();
+//        }
+
+
+        // ____________________ String Methods ____________________ //
+        /*
+        * equals, equalsIgnoreCase, length, charAt
+        * indexOf, isEmpty, toUpperCase, toLowerCase
+        * trim, replace
+        */
+
+        String name = "Yuri";
+        String nameNotTrimed = " Yuri ";
+
+//        boolean result = name.equals("Yuri");
+//        boolean result = name.equalsIgnoreCase("YuRi");
+//        int result = name.length();
+//        char result = name.charAt(0);
+//        int result = name.indexOf('Y');
+//        boolean result = name.isEmpty();
+//        String result = name.toUpperCase();
+//        String result = name.toLowerCase();
+//        String result = nameNotTrimed.trim();
+        String result = name.replace('u', 'o');
+
+        System.out.println(result);
+
+
+
     }
 }
 
