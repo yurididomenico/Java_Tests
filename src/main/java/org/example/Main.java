@@ -270,8 +270,8 @@ public class Main {
         * trim, replace
         */
 
-        String name = "Yuri";
-        String nameNotTrimed = " Yuri ";
+//        String name = "Yuri";
+//        String nameNotTrimed = " Yuri ";
 
 //        boolean result = name.equals("Yuri");
 //        boolean result = name.equalsIgnoreCase("YuRi");
@@ -282,11 +282,28 @@ public class Main {
 //        String result = name.toUpperCase();
 //        String result = name.toLowerCase();
 //        String result = nameNotTrimed.trim();
-        String result = name.replace('u', 'o');
+//        String result = name.replace('u', 'o');
 
-        System.out.println(result);
+//        System.out.println(result);
 
 
+        // ____________________ Wrapper Classes ____________________ //
+        System.out.println("Wrapper Classes");
+
+        Boolean vero = true;
+        Character carattere = 'a';
+        Integer numero = 4;
+        Double decimale = 5.23;
+        String stringa = "una stringa";
+
+        boolean a = true;
+        char b = 'a';
+        int c = 5;
+        double d = 5.23;
+
+        if (vero == a) {
+            System.out.println("Ciao");
+        }
 
     }
 }
