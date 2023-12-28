@@ -229,12 +229,37 @@ public class Main {
 
 
         // ____________________ Array ____________________ //
-        int[] numbers = {10, 20, 30, 40};
+//        int[] numbers = {10, 20, 30, 40};
 //        for (int i = 0; i < numbers.length; i++) {
 //            System.out.println(numbers[i]);
 //        }
-        for (int number : numbers) {
-            System.out.println(number);
+//        for (int number : numbers) {
+//            System.out.println(number);
+//        }
+
+
+        // ____________________ Array 2D ____________________ //
+        String[][] classes = {
+                {"Yuri", "Ludovica"},
+                {"Marco", "Mattia", "Edoardo"},
+                {"Keeevin", "Federico"},
+                {"Alex", "Mattia"}
+        };
+
+        // For
+//        for (int sClass = 0; sClass < classes.length; sClass++) {
+//            for (int student = 0; student < classes[sClass].length; student++) {
+//                System.out.print(classes[sClass][student] + " ");
+//            }
+//            System.out.println();
+//        }
+
+        //Foreach
+        for (String[] sClass : classes) {
+            for (String student : sClass) {
+                System.out.print(student + " ");
+            }
+            System.out.println();
         }
     }
 }
