@@ -361,16 +361,35 @@ public class Main {
 //        }
         // ____________________ Methods ____________________ //
 //        addition(2, 3);
-        int total = 0;
-        total += addition(2, 5);
-        total += addition(2, 5);
-        total += addition(2, 5);
-        total += addition(2, 5);
+//        int total = 0;
+//        total += addition(2, 5);
+//        total += addition(2, 5);
+//        total += addition(2, 5);
+//        total += addition(2, 5);
+//
+//        System.out.println("Result: " + total);
 
-        System.out.println("Result: " + total);
+
+        // ____________________ Overloaded Methods ____________________ //
+        int int_2 = addition(2, 3);
+        int int_3 = addition(2, 3, 4);
+        double float_2 = addition(2.1, 3.1);
+
+        System.out.println(int_2);
+        System.out.println(int_3);
+        System.out.println(float_2);
+
     }
 
     static int addition(int a, int b) {
+        return a + b;
+    }
+
+    static int addition(int a, int b, int c) {
+        return a + b + c;
+    }
+
+    static double addition(double a, double b) {
         return a + b;
     }
 }
