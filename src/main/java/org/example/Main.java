@@ -415,9 +415,19 @@ public class Main {
 
 
         // ____________________ Scope of Variables  ____________________ //
-        Person person1 = new Person("Yuri", "Di Domenico", 30, "green");
+//        Person person1 = new Person("Yuri", "Di Domenico", 30, "green");
+//
+//        person1.addition(2, 3);
 
-        person1.addition(2, 3);
+
+        // ____________________ Overloaded Contructor  ____________________ //
+        Pizza pizza1 = new Pizza("00 flour","tomato","mozzarella");
+        Pizza pizza2 = new Pizza("00 flour","tomato");
+        Pizza pizza3 = new Pizza("0 flour");
+        Pizza pizza4 = new Pizza("wholwheat flour","tomato","parmigiano","french fries");
+
+
+
 
 
     }
