@@ -371,15 +371,41 @@ public class Main {
 
 
         // ____________________ Overloaded Methods ____________________ //
-        int int_2 = addition(2, 3);
-        int int_3 = addition(2, 3, 4);
-        double float_2 = addition(2.1, 3.1);
+//        int int_2 = addition(2, 3);
+//        int int_3 = addition(2, 3, 4);
+//        double float_2 = addition(2.1, 3.1);
+//
+//        System.out.println(int_2);
+//        System.out.println(int_3);
+//        System.out.println(float_2);
+//
 
-        System.out.println(int_2);
-        System.out.println(int_3);
-        System.out.println(float_2);
 
+        // ____________________ OOP Intro ____________________ //
+        Person person1 = new Person();
+//        Person person2 = new Person();
+
+        System.out.println(person1.name);
+        System.out.println(person1.surname);
+        System.out.println(person1.age);
+        System.out.println(person1.favoriteColor);
+        person1.greeting();
+        person1.walking();
+
+//        System.out.println(person2.name);
+//        System.out.println(person2.surname);
+//        System.out.println(person2.age);
+//        System.out.println(person2.favoriteColor);
+//        person2.greeting();
+//        person2.walking();
     }
+
+
+
+
+
+
+
 
     static int addition(int a, int b) {
         return a + b;
