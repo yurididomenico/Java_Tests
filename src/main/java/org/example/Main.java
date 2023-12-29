@@ -1,5 +1,7 @@
 package org.example;
 
+import java.util.ArrayList;
+
 public class Main {
     public static void main(String[] args) {
         System.out.println("Main program develop branch\n");
@@ -288,23 +290,77 @@ public class Main {
 
 
         // ____________________ Wrapper Classes ____________________ //
-        System.out.println("Wrapper Classes");
+//        System.out.println("Wrapper Classes");
+//
+//        Boolean vero = true;
+//        Character carattere = 'a';
+//        Integer numero = 4;
+//        Double decimale = 5.23;
+//        String stringa = "una stringa";
+//
+//        boolean a = true;
+//        char b = 'a';
+//        int c = 5;
+//        double d = 5.23;
+//
+//        if (vero == a) {
+//            System.out.println("Ciao");
+//        }
 
-        Boolean vero = true;
-        Character carattere = 'a';
-        Integer numero = 4;
-        Double decimale = 5.23;
-        String stringa = "una stringa";
 
-        boolean a = true;
-        char b = 'a';
-        int c = 5;
-        double d = 5.23;
+        // ____________________ Array List & 2D ____________________ //
+//        ArrayList<String> people = new ArrayList<String>();
 
-        if (vero == a) {
-            System.out.println("Ciao");
+        // Add elements
+//        people.add("Yuri");
+//        people.add("Ludovica");
+
+//        System.out.println(people.get(0));
+//        System.out.println(people.get(1));
+
+        // For
+//        for (int i = 0; i < people.size(); i++) {
+//            System.out.println(people.get(i));
+//        }
+
+        // Foreach
+//        for (String person : people) {
+//            System.out.println(person);
+//        }
+
+        // Update elements
+//        people.set(0, "Lorenzo");
+//        people.set(1, "Anna");
+
+        // Remove one element
+//        people.remove(1);
+
+        // Clear the Array List
+//        people.clear();
+//
+//        for (String person : people) {
+//            System.out.println(person);
+//        }
+
+        ArrayList<ArrayList<String>> classes = new ArrayList();
+
+        ArrayList<String> classroom_1 = new ArrayList<String>();
+        classroom_1.add("Yuri");
+        classroom_1.add("Ludovica");
+
+        ArrayList<String> classroom_2 = new ArrayList<String>();
+        classroom_2.add("Lorenzo");
+        classroom_2.add("Anna");
+
+        classes.add(classroom_1);
+        classes.add(classroom_2);
+
+        for (ArrayList classroom : classes) {
+            for (Object student : classroom) {
+                System.out.print(student + " ");
+            }
+            System.out.println();
         }
-
     }
 }
 
