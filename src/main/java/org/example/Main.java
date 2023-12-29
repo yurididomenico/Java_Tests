@@ -382,15 +382,15 @@ public class Main {
 
 
         // ____________________ OOP Intro ____________________ //
-        Person person1 = new Person();
+//        Person person1 = new Person();
 //        Person person2 = new Person();
 
-        System.out.println(person1.name);
-        System.out.println(person1.surname);
-        System.out.println(person1.age);
-        System.out.println(person1.favoriteColor);
-        person1.greeting();
-        person1.walking();
+//        System.out.println(person1.name);
+//        System.out.println(person1.surname);
+//        System.out.println(person1.age);
+//        System.out.println(person1.favoriteColor);
+//        person1.greeting();
+//        person1.walking();
 
 //        System.out.println(person2.name);
 //        System.out.println(person2.surname);
@@ -398,6 +398,21 @@ public class Main {
 //        System.out.println(person2.favoriteColor);
 //        person2.greeting();
 //        person2.walking();
+
+
+        // ____________________ OOP: Constructor's Classes ____________________ //
+        Person person1 = new Person("Yuri", "Di Domenico", 30, "green");
+        Person person2 = new Person("Ludovica","Taccini", 24, "blue");
+        Person person3 = new Person("Lorenzo","Mannocchi", 24, "black");
+        Person person4 = new Person("Anna","Nommericordo", 29, "orange");
+
+        System.out.println(person1.name);
+        System.out.println(person2.name);
+        System.out.println(person3.name);
+        System.out.println(person4.name);
+
+
+
     }
 
 

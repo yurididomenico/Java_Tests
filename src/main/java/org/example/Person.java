@@ -1,16 +1,15 @@
 package org.example;
 
 public class Person {
-    String name = "Yuri";
-    String surname = "Di Domenico";
-    int age = 30;
-    String favoriteColor = "green";
+    String name;
+    String surname;
+    int age;
+    String favoriteColor;
 
-    void greeting() {
-        System.out.println("Hi! I'm " + name + "!");
-    }
-
-    void walking() {
-        System.out.println("I'm walking...");
+    Person(String name, String surname, int age, String favoriteColor) {
+        this.name = name;
+        this.surname = surname;
+        this.age = age;
+        this.favoriteColor = favoriteColor;
     }
 }
