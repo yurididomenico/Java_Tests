@@ -1,7 +1,5 @@
 package org.example;
 
-import java.util.ArrayList;
-
 public class Main {
     public static void main(String[] args) {
         System.out.println("Main program develop branch\n");
@@ -342,25 +340,38 @@ public class Main {
 //            System.out.println(person);
 //        }
 
-        ArrayList<ArrayList<String>> classes = new ArrayList();
+//        ArrayList<ArrayList<String>> classes = new ArrayList();
+//
+//        ArrayList<String> classroom_1 = new ArrayList<String>();
+//        classroom_1.add("Yuri");
+//        classroom_1.add("Ludovica");
+//
+//        ArrayList<String> classroom_2 = new ArrayList<String>();
+//        classroom_2.add("Lorenzo");
+//        classroom_2.add("Anna");
+//
+//        classes.add(classroom_1);
+//        classes.add(classroom_2);
+//
+//        for (ArrayList classroom : classes) {
+//            for (Object student : classroom) {
+//                System.out.print(student + " ");
+//            }
+//            System.out.println();
+//        }
+        // ____________________ Methods ____________________ //
+//        addition(2, 3);
+        int total = 0;
+        total += addition(2, 5);
+        total += addition(2, 5);
+        total += addition(2, 5);
+        total += addition(2, 5);
 
-        ArrayList<String> classroom_1 = new ArrayList<String>();
-        classroom_1.add("Yuri");
-        classroom_1.add("Ludovica");
+        System.out.println("Result: " + total);
+    }
 
-        ArrayList<String> classroom_2 = new ArrayList<String>();
-        classroom_2.add("Lorenzo");
-        classroom_2.add("Anna");
-
-        classes.add(classroom_1);
-        classes.add(classroom_2);
-
-        for (ArrayList classroom : classes) {
-            for (Object student : classroom) {
-                System.out.print(student + " ");
-            }
-            System.out.println();
-        }
+    static int addition(int a, int b) {
+        return a + b;
     }
 }
 
