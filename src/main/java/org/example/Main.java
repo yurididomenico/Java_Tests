@@ -434,19 +434,29 @@ public class Main {
 
 
         // ____________________ Array of Objects  ____________________ //
-        Person person_1 = new Person("Gino", "Ricci", 43, "blue");
-        Person person_2 = new Person("Giorgio", "Rovati", 52, "pink");
-        Person person_3 = new Person("Giovanni", "Relli", 49, "red");
-
-        Person[] people = {person_1, person_2, person_3};
+//        Person person_1 = new Person("Gino", "Ricci", 43, "blue");
+//        Person person_2 = new Person("Giorgio", "Rovati", 52, "pink");
+//        Person person_3 = new Person("Giovanni", "Relli", 49, "red");
+//
+//        Person[] people = {person_1, person_2, person_3};
 
 //        for (int i = 0; i < people.length; i++) {
 //            System.out.println(people[i] + "\n");
 //        }
 
-        for (Object person : people) {
-            System.out.println(person + "\n");
-        }
+//        for (Object person : people) {
+//            System.out.println(person + "\n");
+//        }
+
+
+        // ____________________ Passing Objects as method Parameters  ____________________ //
+        Person person_1 = new Person("Yuri","Di Domenico", 30,"green");
+        Person person_2 = new Person("Ludovica","Taccini",24, "blue");
+
+        person_1.greeting(person_2);
+        person_2.greeting(person_1);
+
+
     }
 
 

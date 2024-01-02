@@ -13,13 +13,13 @@ public class Person {
         this.favoriteColor = favoriteColor;
     }
 
-    void greeting() {
-        System.out.println("Ciao sono " + this.name);
+    void greeting(Person newMeet) {
+        System.out.println("Ciao " + newMeet.name + ", piacere " + this.name + "!");
     }
 
     void addition(int a, int b) {
         System.out.println("Nome: " + this.name);
-        System.out.println("Result: " + (a + b));
+        System.out.println("Risultato: " + (a + b));
     }
 
     public String toString() {
