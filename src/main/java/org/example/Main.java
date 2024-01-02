@@ -421,13 +421,16 @@ public class Main {
 
 
         // ____________________ Overloaded Contructor  ____________________ //
-        Pizza pizza1 = new Pizza("00 flour","tomato","mozzarella");
-        Pizza pizza2 = new Pizza("00 flour","tomato");
-        Pizza pizza3 = new Pizza("0 flour");
-        Pizza pizza4 = new Pizza("wholwheat flour","tomato","parmigiano","french fries");
+//        Pizza pizza1 = new Pizza("00 flour","tomato","mozzarella");
+//        Pizza pizza2 = new Pizza("00 flour","tomato");
+//        Pizza pizza3 = new Pizza("0 flour");
+//        Pizza pizza4 = new Pizza("wholwheat flour","tomato","parmigiano","french fries");
 
 
+        // ____________________ toString method  ____________________ //
+        Person persona = new Person("Rick", "Devis", 28, "blue");
 
+        System.out.println(persona);
 
 
     }

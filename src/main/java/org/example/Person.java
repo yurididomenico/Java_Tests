@@ -21,4 +21,8 @@ public class Person {
         System.out.println("Nome: " + this.name);
         System.out.println("Result: " + (a + b));
     }
+
+    public String toString() {
+        return this.name + "\n" + this.surname + "\n" + this.age + "\n" + this.favoriteColor;
+    }
 }
