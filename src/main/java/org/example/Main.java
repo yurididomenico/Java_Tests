@@ -450,13 +450,27 @@ public class Main {
 
 
         // ____________________ Passing Objects as method Parameters  ____________________ //
-        Person person_1 = new Person("Yuri","Di Domenico", 30,"green");
-        Person person_2 = new Person("Ludovica","Taccini",24, "blue");
+//        Person person_1 = new Person("Yuri","Di Domenico", 30,"green");
+//        Person person_2 = new Person("Ludovica","Taccini",24, "blue");
+//
+//        person_1.greeting(person_2);
+//        person_2.greeting(person_1);
 
-        person_1.greeting(person_2);
-        person_2.greeting(person_1);
 
+        // ____________________ final & static keywords  ____________________ //
+        // Editable
+//        int x = 1;
+//        x = 2;
+//        System.out.println(x);
 
+        // Not Editable
+//        final int x = 1;
+//        x = 2;
+//        System.out.println(x);
+
+        Person person_1 = new Person("Aldo","Frizzi", 10, "orange");
+
+        Person.numberPeople();
     }
 
 
