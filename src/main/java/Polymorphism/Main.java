@@ -2,6 +2,7 @@ package Polymorphism;
 
 public class Main {
     public static void main (String[] args) {
+        // ____________________ Polymorphism ____________________ //
         Student student_1 = new Student("y","d");
         Student student_2 = new Student("l","t");
         Teacher teacher_1 = new Teacher("al", "lo");
