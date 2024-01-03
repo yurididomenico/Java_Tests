@@ -10,9 +10,10 @@ public class Main {
         *   default         yes     yes         no          no
         *   private         yes     no          no          no
         *
-        * */
-        A prova = new A();
-        System.out.println(prova.nome);
+        */
+
+//        A prova = new A();
+//        System.out.println(prova.nome);
 
     }
 }
