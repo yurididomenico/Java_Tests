@@ -1,4 +1,4 @@
-package Encapsulation;
+package Package_0;
 
 public class Person {
     private String name;
@@ -7,6 +7,10 @@ public class Person {
     Person(String name, String surname) {
         this.name = name;
         this.surname = surname;
+    }
+
+    Person(Person person) {
+        this.copy(person);
     }
 
     public String getName() {
@@ -23,5 +27,10 @@ public class Person {
 
     public void setSurname(String surname) {
         this.surname = surname;
+    }
+
+    public void copy(Person person) {
+        this.setName(person.getName());
+        this.setSurname(person.getSurname());
     }
 }
