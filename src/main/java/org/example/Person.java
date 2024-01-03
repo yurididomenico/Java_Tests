@@ -15,6 +15,10 @@ public class Person {
         numberPeople++;
     }
 
+    void greeting() {
+        System.out.println("Ciao!");
+    }
+
     void greeting(Person newMeet) {
         System.out.println("Ciao " + newMeet.name + ", piacere " + this.name + "!");
     }

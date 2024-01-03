@@ -468,9 +468,21 @@ public class Main {
 //        x = 2;
 //        System.out.println(x);
 
-        Person person_1 = new Person("Aldo","Frizzi", 10, "orange");
+//        Person person_1 = new Person("Aldo","Frizzi", 10, "orange");
+//
+//        Person.numberPeople();
 
-        Person.numberPeople();
+
+        // ____________________ Inheritance  ____________________ //
+        Student student_1 = new Student("Yuri","Di Domenico",30,"green", "IT");
+        student_1.greeting();
+        System.out.println(student_1.favoriteSubject);
+
+        Teacher teacher_1 = new Teacher("Alessandro", "Rossi", 28, "blue", "IT");
+        teacher_1.greeting();
+        System.out.println(teacher_1.subject);
+
+
     }
 
 
