@@ -484,9 +484,11 @@ public class Main {
 
 
         // ____________________ Abstarct Classes  ____________________ //
-        Car car_1 = new Car();
-        car_1.move();
-        car_1.brake();
+//        Car car_1 = new Car();
+//        car_1.move();
+//        car_1.brake();
+
+
 
     }
 
